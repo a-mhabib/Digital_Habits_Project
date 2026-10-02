@@ -37,7 +37,7 @@ if page == 'Overview':
             ,
             )
             st.markdown("---")
-            st.image(r'D:\Project_Mid\15_thoughts_social_media_0.png')
+            
             st.caption("Sample of Data")
             st.dataframe(df.head(15),use_container_width=True)
             st.markdown("---")
